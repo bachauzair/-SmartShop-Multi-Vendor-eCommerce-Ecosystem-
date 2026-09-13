@@ -1,0 +1,37 @@
+# PHP Backend
+application/config/database.php
+.env
+assets/uploads/
+
+# Flutter Apps
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+
+# Android Specific
+**/android/local.properties
+**/android/app/build/
+**/android/captures/
+**/android/.gradle/
+
+# iOS Specific
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flamelink
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+
+# Firebase Config
+**/google-services.json
+**/GoogleService-Info.plist
+firebase.json
+
+# IDEs and System Files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
